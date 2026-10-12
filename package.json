@@ -1,0 +1,10 @@
+{
+  "name": "project-m",
+  "private": true,
+  "description": "Align Technology website (placeholder build)",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "preview": "node src/build.mjs && python3 -m http.server 8080"
+  }
+}
